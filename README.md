@@ -14,5 +14,5 @@ sudo docker build -t prinsmike/luminos .
 ### Running a container
 
 ```
-sudo docker run -d -v /var/docker/volumes/luminos:/md prinsmike/luminos
+sudo docker run -d -v /var/docker/volumes/luminos:/md -p 9000:9000 prinsmike/luminos
 ```
